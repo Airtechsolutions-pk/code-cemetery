@@ -1,0 +1,31 @@
+{
+  "name": "code-cemetery",
+  "version": "0.1.0",
+  "description": "🪦 Finds dead code, deletes it, and writes a beautiful obituary. Dignified goodbyes for unused code.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "code-cemetery": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"no tests yet (ironic, we know)\""
+  },
+  "keywords": [
+    "dead-code",
+    "static-analysis",
+    "cleanup",
+    "refactoring"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ts-morph": "^23.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
